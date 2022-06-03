@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula de Web I</title>
+</head>
+  <body>
+      <header>
+          <head>
+            <main class="content">
+                <form method="POST" action="" enctype="multipart/form-data">
+                  <fieldset>
+                    <legend>Cadastro</legend>
+                    <div>
+                <label for="Nome"> Nome:</label>
+                <input type="text" name="Nome" placeholder="José" >
+                    </div>
+                    <div>
+                        <label for="Email"> Email:</label> 
+                        <input type="text" name="nome" placeholder="Jose@jose.com">
+                    </div>
+                    <div>
+                    <label for="Sexo"> Sexo:</label>
+                    <input type="radio" name="sexo" value="feminino" />
+                    <label>Feminino</label>
+                        <input type="radio" name="sexo" value="masculino" />
+                        <label>Masculino</label>
+                        </div>
+                        <div> 
+                            <label for="Estado/cidade">Estado/cidade:</label>
+                            <select name="estado/cidade" id="estado/cidade" required>
+                            <option></option>
+                            <option value="1">Minas Gerais</option>
+                            <option value="2">Rio de Janeiro</option>
+                            <option value="3">São Paulo</option>
+                            </select>
+                            <div>
+                                <label for="Selecionar um arquivo" >Selecionar um arquivo:</label>
+                                <input type="file" name="arquivo[]" multiple />
+                            </div>
+                            <div>
+                              <label for="Deixe uma sugestão">Deixe uma sugestão:</label>
+                              <textarea name="Mensagem"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit"> <img src="botao-enviar-hi.png.crdownload"  height="250" width="250"></button>
+                            </div>
+                        </div>
+          </head>
+
+      </header>
+  </body>
